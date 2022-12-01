@@ -1,7 +1,7 @@
 {
   "name": "vue-svg-display",
   "description": "Number display using 'vintage' seven segment modules",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "Jan-Jaap Sinke",
   "license": "MIT",
   "main": "index.js",
