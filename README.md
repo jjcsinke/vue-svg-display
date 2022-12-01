@@ -2,7 +2,7 @@
 Show numbers using 'vintage' seven segment display.
 
 ## Use:
-```npm install jjcsinke/vue-svg-display```
+```npm install vue-svg-display```
 
 ```<vue-svg-display :input="string" :numberOfDigits="number"/>```
 
