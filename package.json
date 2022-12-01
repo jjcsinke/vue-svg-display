@@ -1,5 +1,5 @@
 {
-  "name": "vue-svg-display",
+  "name": "@jjcsinke/vue-svg-display",
   "version": "0.1.3",
   "description": "Number display using 'vintage' seven segment modules",
   "main": "index.js",
