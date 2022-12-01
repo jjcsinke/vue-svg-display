@@ -1,22 +1,26 @@
 {
-  "name": "vue-svg-display",
+  "name": "@jjcsinke/vue-svg-display",
   "version": "0.1.3",
   "description": "Number display using 'vintage' seven segment modules",
+  "author": "Jan-Jaap Sinke",
+  "license": "MIT",
   "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
   "repository": {
     "type": "git",
     "url": "https://github.com/jjcsinke/vue-svg-display"
   },
+  
   "keywords": [
     "numbers",
     "display",
     "svg"
   ],
-  "author": "Jan-Jaap Sinke",
-  "license": "MIT",
+  
   "devDependencies": {
     "@vue/compiler-sfc": "^3.2.45",
     "vue": "^3.0"
