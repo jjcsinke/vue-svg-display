@@ -17,9 +17,9 @@
 <script>
 export default {
   props: {
-    value: {
+    input: {
       type: String,
-      default: '1984'
+      default: ''
     },
     numberOfDigits: {
       type: Number,
@@ -61,7 +61,7 @@ export default {
       };
     },
     digits() {
-      let digits = ('' + this.value).padStart(this.numberOfDigits, ' ').split('').slice(-this.numberOfDigits)
+      let digits = ('' + this.input).padStart(this.numberOfDigits, ' ').split('').slice(-this.numberOfDigits)
 
       return digits.map((src) => this.formatDigit(src))
     },
